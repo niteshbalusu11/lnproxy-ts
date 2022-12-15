@@ -1,0 +1,14 @@
+services:
+  lnproxy-ts:
+    container_name: lnproxy-ts
+    build: .
+    volumes:
+      - /Users/nitesh/.polar/networks/1/volumes/lnd/alice/:/root/.lnd
+    environment:
+      - CERT_PATH=/root/.lnd/tls.cert
+      - MACAROON_PATH=/root/.lnd/data/chain/bitcoin/regtest/admin.macaroon
+      - SOCKET=polar-n1-alice:10009
+networks:
+  default:
+    name: 1_default
+    external: true

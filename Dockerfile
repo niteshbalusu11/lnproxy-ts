@@ -38,6 +38,7 @@ WORKDIR /app
 
 # Copy package files
 COPY --from=build /app/package.json ./
+COPY --from=build /app/nest-cli.json ./nest-cli.json
 COPY --from=deps /app/node_modules/ ./node_modules
 
 # Copy build files
