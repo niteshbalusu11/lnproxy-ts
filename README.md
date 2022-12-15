@@ -6,7 +6,7 @@ Based on [lnproxy](https://github.com/lnproxy/lnproxy), couldn't get it work so 
 
 ### Docker
 
-- For docker, check the Dockerfile and the same docker-compose.yaml file in the repo.
+- For docker, check the Dockerfile and the sample docker-compose.yaml file in the repo.
 
 ### NodeJs and Yarn
 
