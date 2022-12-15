@@ -4,6 +4,12 @@ Based on [lnproxy](https://github.com/lnproxy/lnproxy), couldn't get it work so 
 
 ## Installation
 
+### Docker
+
+- For docker, check the Dockerfile and the same docker-compose.yaml file in the repo.
+
+### NodeJs and Yarn
+
 - You will need NodeJs and Yarn
 - You will need to pass env variables for cert, macaroon and socket. Check the .env.example file in the repo.
 
