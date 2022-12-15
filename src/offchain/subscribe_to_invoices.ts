@@ -73,16 +73,16 @@ export default async function ({ expiry, id, lnd, maxFee, request }: Args) {
 
               if (!!result.secret) {
                 await settleHodlInvoice({ lnd, secret: result.secret });
-                finished(null, req);
+                await finished(null, req);
               }
             }
           } catch (err) {
-            finished(err);
+            await finished(err);
           }
         });
 
-        sub.on('error', (err) => {
-          finished(err);
+        sub.on('error', async (err) => {
+          await finished(err);
         });
 
         return;
