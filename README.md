@@ -43,4 +43,4 @@ curl --header "Content-Type: application/json" \
 
 ## License
 
-lnproxy-ts is [MIT licensed](LICENSE).
+lnproxy-ts is [MIT licensed](License).
