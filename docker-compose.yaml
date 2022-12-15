@@ -3,7 +3,7 @@ services:
     container_name: lnproxy-ts
     build: .
     volumes:
-      - /Users/nitesh/.polar/networks/1/volumes/lnd/alice/:/root/.lnd
+      - /path/to/lnd/dir:/root/.lnd:ro
     environment:
       - CERT_PATH=/root/.lnd/tls.cert
       - MACAROON_PATH=/root/.lnd/data/chain/bitcoin/regtest/admin.macaroon
