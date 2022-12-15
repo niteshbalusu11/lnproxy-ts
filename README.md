@@ -39,7 +39,6 @@ curl --header "Content-Type: application/json" \
   http://localhost:4545
 
 # You can also pass optional max_fee_rate in the body.
-
 ```
 
 ## License
