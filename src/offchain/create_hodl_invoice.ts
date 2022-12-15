@@ -11,7 +11,7 @@ import subscribeToInvoices from './subscribe_to_invoices';
 
 const dateDiff = (m: string, n: string) =>
   Math.abs((new Date(m).getTime() - new Date(n).getTime()) / 1000);
-const defaultFeeRate = 4000;
+const defaultFeeRate = 3000;
 const defaultBaseFee = 1000;
 const defaultPremium = 2000;
 const hodlExpiry = (m: string) =>
