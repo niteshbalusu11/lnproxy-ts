@@ -35,7 +35,7 @@ yarn build:prod
 ```bash
 curl --header "Content-Type: application/json" \
   --request POST \
-  --data '{"request":"lnbc1u1p3ektm5pp59f52s6wsuxp9aus8s4xnksup6x0akhtaavr3jkehfatrx6uady8qdqqcqzpgxqyz5vqsp564xu29tc66kvhxut5u3t3lgfr0z5cza96smp6ryv85qg2f22zv2q9qyyssqrc4m9jtulxzw68sya046zf3vznmm7tmfwsnfattrwzuqvcf79q2pq2h8uedhvtgl026smwjseqwa225wec0he9k7xf5hvlu8em3nxtcqt0ndqh"}' \
+  --data '{"request":"ADD_BOLT_11_INVOICE_HERE"}' \
   http://localhost:4545
 
 # You can also pass optional max_fee_rate in the body.
