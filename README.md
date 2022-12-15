@@ -41,4 +41,4 @@ curl --header "Content-Type: application/json" \
 
 ## License
 
-Nest is [MIT licensed](LICENSE).
+lnproxy-ts is [MIT licensed](LICENSE).
