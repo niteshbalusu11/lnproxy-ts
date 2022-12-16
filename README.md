@@ -33,11 +33,9 @@ yarn build:prod
 ## Example
 
 ```bash
-# max_fee_rate is optional, default is 3000ppm
-
 curl --header "Content-Type: application/json" \
   --request POST \
-  --data '{"request":"ADD_BOLT_11_INVOICE_HERE", "max_fee_rate": 800}' \
+  --data '{"request":"ADD_BOLT_11_INVOICE_HERE"}' \
   http://localhost:4545
 
 ```

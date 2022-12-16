@@ -29,7 +29,6 @@ export class AppService implements OnModuleInit {
 
       return await createHodlInvoice({
         lnd,
-        maxFeeRate: args.max_fee_rate,
         request: args.request,
       });
     } catch (error: any) {
