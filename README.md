@@ -27,7 +27,7 @@ yarn
 yarn build
 
 # Start app
-yarn build:prod
+yarn start:prod
 ```
 
 ## Example
